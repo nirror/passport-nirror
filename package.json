@@ -1,0 +1,39 @@
+{
+  "name": "passport-nirror",
+  "version": "0.1.0",
+  "description": "Nirror OAuth 2.0 authentication strategy for Passport.",
+  "keywords": [
+    "passport",
+    "Nirror",
+    "oauth2",
+    "auth",
+    "authentication",
+    "identity"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/nirror/passport-nirror.git"
+  },
+  "bugs": {
+    "url": "http://github.com/nirror/passport-nirror.git/issues"
+  },
+  "author": {
+    "name": "Tugdual de Kerviler",
+    "email": "tug@nirror.com",
+    "url": "http://github.com/Tug"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib/passport-nirror",
+  "dependencies": {
+    "passport-oauth": "^1.0.0",
+    "pkginfo": "^0.3.0"
+  },
+  "engines": {
+    "node": ">= 0.6.0"
+  }
+}
